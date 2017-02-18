@@ -1,0 +1,24 @@
+{
+  "name": "githubdev",
+  "version": "1.0.0",
+  "description": "develop for github io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuririnz/kuririnz.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuririnz/kuririnz.github.io/issues"
+  },
+  "homepage": "https://github.com/kuririnz/kuririnz.github.io#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^3.1.0"
+  }
+}
