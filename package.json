@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/kuririnz/kuririnz.github.io#readme",
   "dependencies": {
+    "browser-sync": "^2.18.8",
     "gulp": "^3.9.1",
     "gulp-jade": "^1.1.0",
-    "gulp-sass": "^3.1.0"
+    "gulp-sass": "^3.1.0",
+    "semantic-ui": "^2.2.9"
   }
 }

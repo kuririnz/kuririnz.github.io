@@ -1,0 +1,43 @@
+doctype html
+html(lang="ja")
+	head
+		meta(charset="UTF-8")
+		title kuririnz github io
+		link(rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css")
+		script(src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous")
+		script(src="semantic/dist/semantic.min.js")
+	body
+		.ui.secondary.menu
+			a.item(href="#about") about
+			a.item(href="#work") work
+			a.item(href="#skill") skill
+			a.item(href="#interest") interest
+			a.item(href="#contact") contact
+		br
+		.ui
+			h1#about.ui.header about
+		.ui.five.column.centered.grid
+			.column
+				.image
+					img.ui.medium.circular.image(src="img/kuririnz_logo.png")
+				.content kuririnz
+					.ui.sub.header engineer
+		br
+		.ui
+			h1#work.ui.header work
+		.ui
+			h1#skill.ui.header skill
+		.ui
+			h1#interest.ui.header interest
+		.ui
+			h1#contact.ui.header contact
+		.ui.eleven.column.centered.grid
+			.ui.column.tiny.image
+				a(href="https://twitter.com/kuririns0328" target="_blank")
+					img.centered(src="img/twitter_logo.png" width="70" height="70")
+			.ui.column.tiny.image
+				a(href="https://www.facebook.com/kuririnz" target="_blank")
+					img(src="img/fb_logo.png" width="70" height="70")
+			.ui.column.tiny.image
+				a(href="https://github.com/kuririnz" target="_blank")
+					img(src="img/github_logo.png" width="70" height="70")
