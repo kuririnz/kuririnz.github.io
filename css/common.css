@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'migfont';
+  src: url(/font/migmix-2m-regular.ttf); }
+
+body {
+  font-family: migfont;
+  background-color: #627842; }
+  body > div.ui:nth-of-type(n+2) {
+    margin-top: 3em; }
+  body > div.ui:first-of-type {
+    margin-top: 4em; }
+  body > div.ui:nth-of-type(3) > div {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto; }
+  body > div.ui > h1.ui.header {
+    margin-left: 3em; }
+
+div.ui.secondary.menu {
+  position: fixed !important;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #80aa55; }
