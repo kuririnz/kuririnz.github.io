@@ -1,3 +1,111 @@
+@-webkit-keyframes hideleftrotate {
+  0% {
+    transform: rotateY(0deg);
+    left: 0; }
+  100% {
+    transform: rotateY(90deg);
+    left: -50%;
+    opacity: 0; } }
+
+@-moz-keyframes hideleftrotate {
+  0% {
+    transform: rotateY(0deg);
+    left: 0; }
+  100% {
+    transform: rotateY(90deg);
+    left: -50%;
+    opacity: 0; } }
+
+@keyframes hideleftrotate {
+  0% {
+    transform: rotateY(0deg);
+    left: 0; }
+  100% {
+    transform: rotateY(90deg);
+    left: -50%;
+    opacity: 0; } }
+
+@-webkit-keyframes showleftrotate {
+  0% {
+    transform: rotateY(90deg);
+    left: 50%; }
+  100% {
+    transform: rotateY(0deg);
+    left: 0;
+    opacity: 1; } }
+
+@-moz-keyframes showleftrotate {
+  0% {
+    transform: rotateY(90deg);
+    left: 50%; }
+  100% {
+    transform: rotateY(0deg);
+    left: 0;
+    opacity: 1; } }
+
+@keyframes showleftrotate {
+  0% {
+    transform: rotateY(90deg);
+    left: 50%; }
+  100% {
+    transform: rotateY(0deg);
+    left: 0;
+    opacity: 1; } }
+
+@-webkit-keyframes hiderightrotate {
+  0% {
+    transform: rotateY(0deg);
+    left: 0; }
+  100% {
+    transform: rotateY(90deg);
+    left: 50%;
+    opacity: 0; } }
+
+@-moz-keyframes hiderightrotate {
+  0% {
+    transform: rotateY(0deg);
+    left: 0; }
+  100% {
+    transform: rotateY(90deg);
+    left: 50%;
+    opacity: 0; } }
+
+@keyframes hiderightrotate {
+  0% {
+    transform: rotateY(0deg);
+    left: 0; }
+  100% {
+    transform: rotateY(90deg);
+    left: 50%;
+    opacity: 0; } }
+
+@-webkit-keyframes showrightrotate {
+  0% {
+    transform: rotateY(90deg);
+    left: -50%; }
+  100% {
+    transform: rotateY(0deg);
+    left: 0;
+    opacity: 1; } }
+
+@-moz-keyframes showrightrotate {
+  0% {
+    transform: rotateY(90deg);
+    left: -50%; }
+  100% {
+    transform: rotateY(0deg);
+    left: 0;
+    opacity: 1; } }
+
+@keyframes showrightrotate {
+  0% {
+    transform: rotateY(90deg);
+    left: -50%; }
+  100% {
+    transform: rotateY(0deg);
+    left: 0;
+    opacity: 1; } }
+
 @font-face {
   font-family: 'migfont';
   src: url(/font/migmix-2m-regular.ttf); }

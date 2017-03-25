@@ -17,17 +17,19 @@ html(lang="ja")
 			h1#work.ui.header work
 			.ui.four.column.grid.centered
 				.column
-					.ui.fluid.card
-						.image
-							img(src="https://lh3.googleusercontent.com/6n-ZcieWwDZPQBkee3wta4pEGiHIWQZMfYuHV94l7Y5Oo3AzL7-RWVSJRA-dviEY0Q=w300-rw")
+					#daysalarm.ui.fluid.card
+						.ui.slide.masked.reveal.image
+							img(src="img/daysalarm_pre.png").visible.content
+							img(src="img/daysalarm.png").hidden.content
 						.content
 							a.header(href="https://play.google.com/store/apps/details?id=com.hjds_sakan.daysalarm") daysalarm
 							.meta
 								a 2014.06.12
 				.column
-					.ui.fluid.card
-						.image
-							img(src="img/kklistactionsheet.png")
+					#kkactsheet.ui.fluid.card
+						.ui.slide.masked.reveal.image
+							img(src="img/kklistactionsheet_pre.png").visible.content
+							img(src="img/kklistactionsheet.png").hidden.content
 						.content
 							a.header(href="https://github.com/kuririnz/KkListActionSheet-Swift") KkListActionSheet-swift
 							.meta

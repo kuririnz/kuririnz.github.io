@@ -10,6 +10,10 @@ $(function () {
 		$('html,body').animate({scrollTop:$(key).offset().top});
 	})
 
+	// $('#daysalarm').hover(function () {
+	// 	$(this).transition('slide right');
+	// })
+
 	$('body > div.ui:eq(2) > div').width(window.innerWidth / 2)
 		.height(30 * skillData.level.length);
 	$('svg#graph').attr('width', window.innerWidth / 2)

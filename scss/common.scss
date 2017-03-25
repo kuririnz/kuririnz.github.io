@@ -2,6 +2,76 @@ $cmncolor: #d5d52b;
 $cmnbackcolor: #627842;
 $headercolor: #80aa55;
 
+@mixin keyframes($animation-name: animation) {
+  @-webkit-keyframes #{$animation-name} {
+    @content;
+  }
+  @-moz-keyframes #{$animation-name} {
+    @content;
+  } 
+  @keyframes #{$animation-name} {
+    @content;
+  }
+}
+
+@mixin animation($animation-name) {
+  -webkit-animation: $animation-name;
+  -moz-animation: $animation-name;
+  animation: $animation-name;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@include keyframes(hideleftrotate){
+    0% {
+        transform: rotateY(0deg);
+        left: 0;
+    }
+    100% {
+    	transform: rotateY(90deg);
+        left: -50%;
+        opacity: 0;
+    }
+}
+
+@include keyframes(showleftrotate){
+    0% {
+        transform: rotateY(90deg);
+        left: 50%;
+    }
+    100% {
+    	transform: rotateY(0deg);
+        left: 0;
+        opacity: 1;
+    }
+}
+
+@include keyframes(hiderightrotate){
+    0% {
+        transform: rotateY(0deg);
+        left: 0;
+    }
+    100% {
+    	transform: rotateY(90deg);
+        left: 50%;
+        opacity: 0;
+    }
+}
+
+@include keyframes(showrightrotate){
+    0% {
+        transform: rotateY(90deg);
+        left: -50%;
+    }
+    100% {
+    	transform: rotateY(0deg);
+        left: 0;
+        opacity: 1;
+    }
+}
+
+
 @font-face {
 	font-family: 'migfont';
 	src: url(/font/migmix-2m-regular.ttf);
@@ -40,3 +110,4 @@ div.ui.secondary.menu {
 	width: 100%;
 	background-color: $headercolor;
 }
+
