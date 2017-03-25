@@ -128,6 +128,7 @@ body {
 
 div.ui.secondary.menu {
   position: fixed !important;
+  z-index: 99 !important;
   margin: 0;
   top: 0;
   left: 0;
